@@ -80,7 +80,7 @@ body {
     color: white;
 }
 
-.hrContainer__submit{
+.hrContainer__submit, .hrContainer__show{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,7 @@ body {
     margin-top: 1rem;
 }
 
-.hrContainer__submitButton {
+.hrContainer__submitButton, .hrContainer__showButton {
     background: #14c70f;
     border-radius: 5px;
     outline: none;

@@ -75,3 +75,7 @@ function onSubmit() {
     }, 500);
   }
 }
+
+function alertCurrentAnswer() {
+  alert(currentHiragana["romanization"]);
+}
