@@ -1,0 +1,100 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+button {
+    cursor: pointer;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #424242;
+}
+
+.hrContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.hrContainer__hiragana{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 20rem;
+    font-size: 9rem;
+    color: white;
+    border-radius: 10px;
+    background-color: initial;
+}
+
+.hrContainer__hiragana.success{
+    background-color: #4CAF50;
+    transition: .5s background-color;
+}
+
+.hrContainer__hiragana.tryAgain{
+    background-color: #de0909;
+    transition: .5s background-color;
+    animation: shake .5s;
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+.hrContainer__answer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 20rem;
+    margin-top: 1rem;
+}
+
+.hrContainer__answerInput{
+    background: #979797;
+    border-radius: 5px;
+    outline: none;
+    padding: 1rem;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.hrContainer__submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 20rem;
+    margin-top: 1rem;
+}
+
+.hrContainer__submitButton {
+    background: #14c70f;
+    border-radius: 5px;
+    outline: none;
+    padding: 1rem;
+    font-size: 2.5rem;
+    color: white;
+    width: 100%;
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hiragana Random</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="hiragana.js"></script>
+
+</head>
+<body>
+<div class="hrContainer">
+    <h1 class="hrContainer__hiragana">
+
+    </h1>
+    <form onsubmit="onSubmit()">
+        <div class="hrContainer__answer">
+            <input class="hrContainer__answerInput" type="text">
+        </div>
+        <div class="hrContainer__submit">
+            <button type="submit" class="hrContainer__submitButton">Submit</button>
+        </div>
+    </form>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
